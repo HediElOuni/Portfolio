@@ -337,10 +337,6 @@ img {
   resize: none;
   overflow-y: auto;
 }
-.submit-container {
-  display: flex;
-  justify-content: space-between;
-}
 .contact__button {
   display: block;
   border: none;
@@ -348,7 +344,7 @@ img {
   font-size: var(--normal-font-size);
   font-family: var(--body-font);
   cursor: pointer;
-  padding-inline: 1.2rem;
+  margin-left: auto;
 }
 
 /* ===== MEDIA QUERIES=====*/
